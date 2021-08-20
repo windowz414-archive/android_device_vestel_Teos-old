@@ -2422,7 +2422,6 @@ vendor/PhilippinesOpenMarket/data/modem_row_config/msm8937_3/mcfg_sw.mbn
 vendor/PhilippinesOpenMarket/data/modem_row_config/msm8940/mcfg_sw.mbn
 vendor/PhilippinesOpenMarket/system/
 vendor/PhilippinesOpenMarket/system/vendor/vendor.prop
--vendor/priv-app/ZeroBalanceHelper/ZeroBalanceHelper.apk
 vendor/qcril.db
 vendor/RJIL/.preloadspec
 vendor/RJIL/data/modem_config/msm8917/mcfg_sw.mbn
