@@ -1947,7 +1947,13 @@ vendor/ChinaUnicom/.preloadspec
 vendor/ChinaUnicom/exclude.list
 vendor/ChinaUnicom/system/
 vendor/CTA/.preloadspec
-vendor/CTA/system/
+vendor/CTA/system/vendor/overlay/CTAMmsRes/CTAMmsRes.apk
+vendor/CTA/system/vendor/overlay/CTANetworkSettingRes/CTANetworkSettingRes.apk
+vendor/CTA/system/vendor/overlay/CTASettingsProviderRes/CTASettingsProviderRes.apk
+vendor/CTA/system/vendor/overlay/CTASettingsRes/CTASettingsRes.apk
+vendor/CTA/system/vendor/overlay/CTASimContactsRes/CTASimContactsRes.apk
+vendor/CTA/system/vendor/overlay/CTASystemUIRes/CTASystemUIRes.apk
+vendor/CTA/system/vendor/overlay/CTATeleServicesRes/CTATeleServicesRes.apk
 vendor/Default/.preloadspec
 vendor/Default/system/build.prop.link
 vendor/DTGermany/.preloadspec
