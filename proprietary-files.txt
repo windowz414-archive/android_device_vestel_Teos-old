@@ -1953,7 +1953,7 @@ vendor/CTA/system/vendor/overlay/CTASettingsProviderRes/CTASettingsProviderRes.a
 vendor/CTA/system/vendor/overlay/CTASettingsRes/CTASettingsRes.apk
 vendor/CTA/system/vendor/overlay/CTASimContactsRes/CTASimContactsRes.apk
 vendor/CTA/system/vendor/overlay/CTASystemUIRes/CTASystemUIRes.apk
-vendor/CTA/system/vendor/overlay/CTATeleServicesRes/CTATeleServicesRes.apk
+vendor/CTA/system/vendor/overlay/CTATeleServiceRes/CTATeleServiceRes.apk
 vendor/Default/.preloadspec
 vendor/Default/system/build.prop.link
 vendor/DTGermany/.preloadspec
