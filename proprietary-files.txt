@@ -1,4 +1,3 @@
-
 # ADSP
 vendor/lib/libadsprpc.so
 vendor/lib/libadsp_default_listener.so
@@ -1459,8 +1458,6 @@ vendor/lib64/libxtwifi_ulp_adaptor.so
 vendor/lib64/libxt_native.so
 vendor/lib64/lib_drplugin_server.so
 
-# GPS-Hardware
-
 # Gatekeeper
 vendor/lib/hw/gatekeeper.msm8937.so
 vendor/lib64/hw/gatekeeper.msm8937.so
@@ -1601,12 +1598,6 @@ vendor/lib64/libOmxEvrcDec.so
 vendor/lib64/libOmxMux.so
 vendor/lib64/libOmxQcelp13Dec.so
 vendor/lib64/libOmxWmaDec.so
-
-# Media-Hardware
-
-# NFC
-vendor/lib/mmi_nfc.so
-vendor/lib64/mmi_nfc.so
 
 # Perf
 vendor/lib/libqti-perfd-client.so
@@ -1892,21 +1883,8 @@ vendor/lib64/libwfduibcsinkinterface.so
 vendor/lib64/libwfduibcsrc.so
 vendor/lib64/libwfduibcsrcinterface.so
 
-# WiFi
-
-# rootdir
-
 # Misc
--vendor/app/CABLService/CABLService.apk
--vendor/app/colorservice/colorservice.apk
--vendor/app/DataStorageCleanerService/DataStorageCleanerService.apk
 -vendor/app/ims/ims.apk
--vendor/app/qti-logkit/qti-logkit.apk
--vendor/app/RIDLClient/RIDLClient.apk
--vendor/app/SecProtect/SecProtect.apk
--vendor/app/SmartcardService/SmartcardService.apk
--vendor/app/StorageCleaner/StorageCleaner.apk
--vendor/app/SVIService/SVIService.apk
 vendor/bin/chamomile_provision
 vendor/bin/esepmdaemon
 vendor/bin/hbtp_daemon
@@ -1919,9 +1897,6 @@ vendor/bin/perfd
 vendor/bin/qjpeg-dma-test
 vendor/bin/qseeproxydaemon
 vendor/bin/qseeproxysampledaemon
-vendor/bin/RIDLClient.exe
-vendor/Default/.preloadspec
-vendor/Default/system/build.prop.link
 vendor/etc/perf-profile0.conf
 vendor/etc/perf-profile1.conf
 vendor/etc/qti-logkit/audiobasic.dmc
