@@ -4,13 +4,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
     $(LOCAL_PATH)/configs/audio/audio_output_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_output_policy.conf \
 
-# FSTAB, UEvent Daemon and init scripts
-PRODUCT_PACKAGES += \
-    fstab.qcom \
-    ueventd.qcom.rc \
-    init.target.rc \
-    init.logger.rc
-
 # IRQ
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
@@ -25,7 +18,23 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
+    fstab.qcom \
     ueventd.qcom.rc \
+    init.target.rc \
+    init.logger.rc \
+    init.carrier.rc \
+    init.class_main.sh \
+    init.mdm.sh \
+    init.msm.usb.configfs.rc \
+    init.qcom.class_core.rc \
+    init.qcom.early_boot.rc \
+    init.qcom.factory.rc \
+    init.qcom.rc \
+    init.qcom.sensors.sh \
+    init.qcom.sh \
+    init.qcom.syspart_fixup.sh \
+    init.qcom.usb.rc \
+    init.qcom.usb.sh \
 
 # Hardware-specific features
 PRODUCT_COPY_FILES += \
